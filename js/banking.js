@@ -25,6 +25,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     // const depositAmountText = depositInput.value;
     // const depositAmount = parseFloat(depositAmountText);
     const depositAmount = getInputValue();
+    new
 
     //get current deposit
     const depositTotal = document.getElementById('deposit-total');
